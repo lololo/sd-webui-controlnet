@@ -1,3 +1,10 @@
+import subprocess
+import os
+import sys
+import git
+
+sys.path.append("/stable-diffusion-webui")
+
 import launch
 import os
 import pkg_resources
